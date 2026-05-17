@@ -1,0 +1,10 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mapsui="clr-namespace:Mapsui.UI.Avalonia;assembly=Mapsui.UI.Avalonia"
+        xmlns:ctx="clr-namespace:Tiferet.Avalonia.Geospatial.Contexts;assembly=Tiferet.Avalonia.Geospatial"
+        x:Class="Tiferet.Avalonia.Geospatial.Examples.MapViewer.MainWindow"
+        x:DataType="ctx:MapViewModel"
+        Title="Tiferet Geospatial - Map Viewer"
+        Width="1024" Height="768">
+    <mapsui:MapControl Map="{Binding Map}" />
+</Window>

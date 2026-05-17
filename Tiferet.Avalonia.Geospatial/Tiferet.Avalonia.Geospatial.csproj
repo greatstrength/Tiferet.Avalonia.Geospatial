@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <Description>Tiferet.Avalonia.Geospatial – geospatial controls, domain primitives, and map services for building Avalonia UI mapping applications with the Tiferet DDD framework.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tiferet.Avalonia" Version="1.0.0-beta.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapsui.Avalonia" Version="5.0.2" />
+    <PackageReference Include="Mapsui.Nts" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
