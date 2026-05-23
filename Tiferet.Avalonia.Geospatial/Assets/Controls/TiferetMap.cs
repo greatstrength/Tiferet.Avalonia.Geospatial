@@ -56,6 +56,13 @@ public class TiferetMap : ContentControl
         private set => SetAndRaise(MapProperty, ref _map, value);
     }
 
+    // ** property: map_control
+    /// <summary>
+    /// The underlying Mapsui <see cref="Mapsui.UI.Avalonia.MapControl"/> instance.
+    /// Use this to subscribe to pointer events or access the viewport.
+    /// </summary>
+    public MapControl? MapControl => _mapControl;
+
     // * init
     public TiferetMap()
     {
